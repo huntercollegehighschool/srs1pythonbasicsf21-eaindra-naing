@@ -3,4 +3,8 @@ Define a function twodigitodd that take a single integer argument (number). The 
 """
 
 def twodigitodd(number):
-  pass  # delete this when you start writing your code
+  if number / 2 >= 5 and number % 2 == 1: # number/10 >= 1 and number < 999
+    return True
+  else:
+    return False
+  

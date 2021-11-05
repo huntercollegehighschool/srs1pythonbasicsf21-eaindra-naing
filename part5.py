@@ -34,4 +34,18 @@ Enter the leg length: 5
 """
 
 def isotriangle(leg):
-  pass # delete this line when you start writing your code
+  while leg > 0:
+    
+    for i in range (0, leg+1):
+      print (' ' * int(leg-1), '*' * int(i+2))
+      leg = leg-1
+    
+
+
+
+
+"""
+if program == 5:
+  leg = int(input("Leg length: "))
+  isotriangle(leg)
+  """
