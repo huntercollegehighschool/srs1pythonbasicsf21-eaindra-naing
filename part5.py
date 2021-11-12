@@ -49,3 +49,30 @@ if program == 5:
   leg = int(input("Leg length: "))
   isotriangle(leg)
   """
+
+# need help with this
+
+""""
+List Datatype:
+data that contains values in a specific open
+
+#creating a list
+students = ["Evelyn", "Sophia", "Leo", "Owen", "Jaemin"]
+
+#indexing a list/changing an element; indices start at 0
+print (students[0]) #prints Evelyn
+print (students[-1]) #prints Jaemin
+
+#slicing a list
+print(students[1:3])
+
+#len, max, min, sum
+
+
+#looping through each element in a list
+for student in students:
+  print ("Hello,",student)
+
+#clear, count, index, pop, remove, append, inssert
+students.append ("Victor")
+print (students)
